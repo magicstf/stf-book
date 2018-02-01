@@ -9,7 +9,7 @@
     "deploy": "node ./scripts/deploy-gh-pages.js",
     "publish": "npm run build && npm run deploy",
     "port": "lsof -i :35729"
-   },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/magicstf/stf-book.git"
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/magicstf/stf-book/issues"
   },
-  "homepage": "https://github.com/magicstf/stf-book#readme"
+  "homepage": "https://github.com/magicstf/stf-book#readme",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
 }
